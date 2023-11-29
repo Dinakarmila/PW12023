@@ -1,0 +1,83 @@
+[09.57, 14/11/2023] dikar_senja04: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Registrasi User</h1>
+    <div class="container" style="border: 2px solid black; width:300px; padding: 20px; margin: auto;">
+        <form>
+            <table style="line-height: 30px;">
+                <tr>
+                    <td>Nama Lengkap :</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Email :</td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td>Username :</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Password :</td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td>Cek Password :</td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td>Kategori :</td>
+                    <td>
+                        <select name="pekerjaan" >
+                            <option value="Pegawai">Pegawai</option>
+                            <option value="Petani">Petani</option>
+                        </select>
+              </td>
+                </tr>
+              <tr>
+                <!-- <td></td> -->
+                    <td colspan="2" style="text-align: right;"><button type="submit">Daftar</button></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
+[09.58, 14/11/2023] dikar_senja04: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS</title>
+</head>
+<body style="background-color: coral; color: #fff;"> 
+    
+    <h2 style="text-align: center; margin-top: 210px; color: white ;">Login Sistem Operasi Direktori Data Masjid</h2>
+    <fieldset  style="width: 265px; text-align: center; margin-left: 530px; margin-top: 30px; line-height: 40px;color: black; background-color: aliceblue; border-radius: 8px;">
+        <form action="" method="POST" enctype="multipart/form-data">
+            <table>
+                <tr>
+                    <td>Username :</td>
+                    <td><input type="text" name="name"></td>
+                </tr>
+                <tr>
+                    <td>Password :</td>
+                    <td><input type="text" name="name"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" name="proses" value="Signin" style="box-shadow: 4px 3px 2px black; color: white; background-color: blue;"></td>
+                    <td><a href="#"><u>Create User</u></a></td>
+                </tr>
+            </table>
+        </form>
+            
+    </fieldset>
+    </div>
+</body>
+</html>
